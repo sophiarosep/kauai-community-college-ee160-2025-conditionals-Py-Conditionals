@@ -1,0 +1,56 @@
+var1 = input("Enter your first number: ")
+var2 = input("Enter your second number: ")
+# have the person insert their numbers 
+try:
+  num1 = float(var1)
+  num2 = float(var2)
+  #checking to see if its an interger
+ if num1 > num2:
+        print("The first number is larger than the second.")
+    elif num1 < num2:
+        print("The first number is smaller than the second.")
+    else:
+        print("Both numbers are equal.")
+#checking to see which is larger or not!
+total=num1+num2
+print("Your total is:", total)
+# this calculates the sum of the two intergers! 
+if num1.is_integer():
+        print("The first number is a whole number.")
+        if int(num1) % 2 == 0:
+            print("It is even.")
+        else:
+            print("It is odd.")
+    else:
+        print("The first number is a decimal. please insert a whole number!")
+#trying to make people enter whole numbers
+    if num2.is_integer():
+        print("The second number is a whole number.")
+        if int(num2) % 2 == 0:
+            print("It is even.")
+        else:
+            print("It is odd.")
+    else:
+        print("The second number is a decimal. please insert a whole number!")
+#same thing but with second number
+except ValueError:
+print("something isn't right... maybe enter a number?")
+if var1>10:
+  print("Your number is greater than 10")
+elif var1<10:
+  print("Your number is less than 10")
+if var2>10:
+  print("Your number is greater than 10")
+elif var2<10:
+  print("Your number is less than 10")
+if var1 in [2,3,5,7]:
+  print("your number is prime")
+else:
+  print("your number isnt prime")
+if var2 in [2,3,5,7]:
+  print("your number is prime")
+else:
+  print("your number isnt prime")
+print(".......")
+print("done :))
+        
